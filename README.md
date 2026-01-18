@@ -9,14 +9,14 @@ The recommended way to install this skill is as a git submodule in your project'
 
 ```bash
 mkdir -p skills
-git submodule add https://github.com/your-username/pocketbase-go-skill.git skills/pocketbase-go
+git submodule add https://github.com/mrchypark/pocketbase-go-skill.git skills/pocketbase-go
 ```
 
 ### Option 2: Clone Directly
 If you are not using git submodules, you can simply clone the repository:
 
 ```bash
-git clone https://github.com/your-username/pocketbase-go-skill.git skills/pocketbase-go
+git clone https://github.com/mrchypark/pocketbase-go-skill.git skills/pocketbase-go
 ```
 
 ## Usage

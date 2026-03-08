@@ -4,16 +4,15 @@ This skill provides a robust, atomic, and type-safe workflow for managing Pocket
 
 ## Archive Notice
 
-This repository is planned to be archived.
+This repository is archived and kept as a read-only reference.
 
-New organization work for this skill is moving to the `mrchypark/skills` monorepo at:
+The active copy of this skill lives in the `mrchypark/skills` monorepo at:
 
 - `pocketbase-go/`
 - [https://github.com/mrchypark/skills/tree/main/pocketbase-go](https://github.com/mrchypark/skills/tree/main/pocketbase-go)
 
 If you are adopting this skill now, use the monorepo path above.
-
-During the transition, this repository stays available as a standalone reference, but future organization is centered on the monorepo copy.
+Do not start new setup from this standalone repository unless you specifically need the archived snapshot.
 
 ## Recommended Path
 
@@ -22,11 +21,11 @@ Use the monorepo version if you want:
 - the location that will continue to be organized with other personal skills
 - a single repository for installing and managing multiple `mrchypark` skills
 - the latest documentation layout used in the active skills repository
-- the path to prefer for future updates and migration
+- the path that will receive future organization and updates
 
 ## Migration
 
-If you previously used this standalone repository, switch to:
+If you previously used this standalone repository, move to:
 
 ```bash
 git clone https://github.com/mrchypark/skills.git mrchypark-skills
@@ -41,10 +40,10 @@ git clone https://github.com/mrchypark/skills.git mrchypark-skills
 cp -R mrchypark-skills/pocketbase-go ~/.codex/skills/pocketbase-go
 ```
 
-## Installation
+## Legacy Standalone Installation
 
-The installation methods below are kept as legacy standalone options while this repository remains available.
-For new setups, prefer the monorepo path described above.
+The installation methods below are preserved only for users who need the archived standalone layout.
+For new setups, use the monorepo path described above instead.
 
 ### Option 1: Manual Installation (Git Submodule)
 Legacy standalone installation as a git submodule in your project's `skills/` directory:

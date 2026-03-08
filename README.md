@@ -2,6 +2,15 @@
 
 This skill provides a robust, atomic, and type-safe workflow for managing PocketBase backends in Go projects. It automates schema migration, code generation, and environment setup.
 
+## Current Location
+
+This skill is also available in the `mrchypark/skills` monorepo at:
+
+- `pocketbase-go/`
+- [https://github.com/mrchypark/skills/tree/main/pocketbase-go](https://github.com/mrchypark/skills/tree/main/pocketbase-go)
+
+Use that path if you are collecting multiple personal skills in one repository. If you only want this skill by itself, the installation options below still work.
+
 ## Installation
 
 ### Option 1: Manual Installation (Git Submodule)
